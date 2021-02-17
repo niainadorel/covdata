@@ -1,0 +1,108 @@
+.btn {
+    overflow: hidden;
+    width: 100%;
+}
+
+.btn:hover {
+    font-size: 110%;
+    transition: 0.5s;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    max-width: 100%;
+}
+
+.section0 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.containerSection{
+    padding: 20px;
+}
+
+.containerAside {
+    width: 100%;
+    padding: 20px;
+    border: 7px groove silver;
+    border-radius: 6px;
+}
+
+video {
+    border-radius: 12px;    
+}
+.myButton{
+    width:100%;
+}
+.btn-container{
+    margin:auto;
+}
+
+
+footer .container{
+    margin-top:20px;
+    background-color: rgb(14, 32, 138);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    color: white !important;
+
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background-image: url("../../assets/img/bgheader.jpg");
+    border: 7px groove Black;
+    border-radius: 6px;
+
+}
+
+body {
+    background-color: rgb(230, 227, 229);
+    font-family: ubuntu;
+}
+
+
+
+@media all and (max-width: 1024px)
+{
+	.container {
+		width: auto;
+		flex-direction: column;
+	}
+
+	aside {
+		width: 100%;
+		margin-bottom: 15px;
+		text-align: center;
+
+	}
+
+     .assideIMG
+    {
+        width: 100%;
+    }
+    
+    .stat {
+        display: none;
+        
+    }
+
+    footer {
+        display: inline-block;
+        margin-top:20px;
+        background-color: rgb(14, 32, 138);
+        text-align: left;
+    }
+
+}
